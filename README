@@ -10,7 +10,7 @@ http://github.com/masak/ufo/ and then run
 
     $ ufo
     $ make
-    $ make test # recommened
+    $ make test # recommended
     $ make install # if you like it
 
 Author: Moritz Lenz
