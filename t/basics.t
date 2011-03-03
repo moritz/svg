@@ -15,4 +15,4 @@ ok $s ~~ / 'xmlns="http://www.w3.org/2000/svg"'/,
     'xmlns included by default, even for non-trivial SVG' or diag $s;
 ok $s ~~ /«rect»/, 'and the rest of the SVG is also present' or diag $s;
 
-done_testing;
+done;
