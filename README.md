@@ -11,8 +11,9 @@ For building an running the tests, we recommend to obtain [zef](http://modules.p
 You can then use it like this:
 
     use SVG;
-    say SVG.serialize(width => 100, height => 10,
+    say SVG.serialize(
         svg => [
+            width => 100, height => 10,
             :rect[:x<5>, :y<5>, :width<90>, :height<90>, :stroke<black>],
         ],
     );
